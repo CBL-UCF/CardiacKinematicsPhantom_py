@@ -1,0 +1,37 @@
+{
+  "Rows": 80,
+  "Columns": 80,
+  "PixelSpacing": [
+    2.5,
+    2.5
+  ],
+  "SliceThickness": 8.0,
+  "SliceLocation": -38.0049,
+  "PhotometricInterpretation": "MONOCHROME2",
+  "BitsAllocated": 16,
+  "BitsStored": 12,
+  "HighBit": 11,
+  "PixelRepresentation": 0,
+  "SamplesPerPixel": 1,
+  "ImagePositionPatient": [
+    -42.9004,
+    -70.3097,
+    -36.1031
+  ],
+  "ImageOrientationPatient": [
+    0.852168,
+    2.4824e-05,
+    0.523269,
+    0.227063,
+    0.900928,
+    -0.369825
+  ],
+  "StudyInstanceUID": "1.2.826.0.1.3680043.8.498.9183962233120039500734613587194386828",
+  "SeriesInstanceUID": "1.2.826.0.1.3680043.8.498.340356887898401392615111443423353539",
+  "SOPInstanceUID": "1.2.826.0.1.3680043.8.498.17689535575570404389154557536361839985",
+  "SOPClassUID": "1.2.840.10008.5.1.4.1.1.4",
+  "StudyDate": "19560207",
+  "file_meta": {
+    "TransferSyntaxUID": "1.2.840.10008.1.2.1"
+  }
+}
