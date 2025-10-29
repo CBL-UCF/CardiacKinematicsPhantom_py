@@ -109,3 +109,11 @@ To generate a pinned `requirements.txt` file from your configured virtual enviro
 pip freeze > requirements.txt
 ```
 
+## 📖 Citation
+
+*(                                 )*
+
+## 🔑 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
