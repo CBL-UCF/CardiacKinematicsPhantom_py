@@ -57,13 +57,13 @@ All runtime parameters are centralized in `config.py`. Key settings are summariz
 
 | Category             | Parameters                                           | Description                                      |
 | -------------------- | ---------------------------------------------------- | ------------------------------------------------ |
-| **Paths** | `BASE_OUTPUT_PATH`                                   | The root directory for all generated files.      |
-| **Geometry** | `R_ENDO`, `R_EPI`, `Z_BOTTOM`, `Z_TOP`               | Sets the endocardial/epicardial radii and axial extent. |
-| **Motion** | `COMPUTE_PHANTOM`, `AFINAL`, `OPT_BETA`               | Toggles motion optimization and sets torsion parameters. |
-| **Imaging** | `XLIM`, `YLIM`, `HX`, `HY`, `HZ`                       | Defines the Field of View (FOV) and voxel resolution. |
-| **DENSE Encoding** | `KE_X`, `KE_Y`, `KE_Z`                                 | Sets the DENSE encoding frequency (cycles/mm).   |
-| **Noise** | `SNR`, `REPS`                                        | A list of SNRs and repetitions to simulate.      |
-| **Outputs** | `SAVE_PHANTOM_VTK`, `TIME_STEPS`                       | Toggles VTK output and sets temporal sampling.   |
+| **Paths** | `BASE_OUTPUT_PATH`                                    | The root directory for all generated files.      |
+| **Geometry** | `R_ENDO`, `R_EPI`, `Z_BOTTOM`, `Z_TOP`             | Sets the endocardial/epicardial radii and axial extent. |
+| **Motion** | `COMPUTE_PHANTOM`, `AFINAL`, `OPT_BETA`              | Toggles motion optimization and sets torsion parameters. |
+| **Imaging** | `XLIM`, `YLIM`, `HX`, `HY`, `HZ`                    | Defines the Field of View (FOV) and voxel resolution. |
+| **DENSE Encoding** | `KE_X`, `KE_Y`, `KE_Z`                       | Sets the DENSE encoding frequency (cycles/mm).   |
+| **Noise** | `SNR`, `REPS`                                         | A list of SNRs and repetitions to simulate.      |
+| **Outputs** | `SAVE_PHANTOM_VTK`, `TIME_STEPS`                    | Toggles VTK output and sets temporal sampling.   |
 
 ---
 
@@ -104,9 +104,9 @@ The core dependencies required to run the simulation are:
 * `Pillow`
 * `pydicom` (Crucial for the DICOM export feature)
 
-To generate a pinned `requirements.txt` file from your configured virtual environment, run:
+To install Python Dependencies, run:
 ```bash
-pip freeze > requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 📖 Citation
