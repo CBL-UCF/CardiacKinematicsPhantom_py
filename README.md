@@ -1,5 +1,5 @@
 # CardiacKinematicsPhantom_py : Synthetic DENSE MRI Generator (Analytical Phantom)
-Python and extended version of the mid-ventricular cardiac kinematics phantom available at https://github.com/luigiemp/CardiacKinematicsPhantom
+Python and extended version of the mid-ventricular cardiac kinematics phantom available at: https://github.com/luigiemp/CardiacKinematicsPhantom
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
